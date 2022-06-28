@@ -1,0 +1,26 @@
+
+.footer-cotianer{
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+.footer-cotianer img{
+    margin-left: 16px;
+
+}
+.img1{
+    margin-left: 100px !important;
+    
+}
+.footer-cotianer img{
+    margin-top: 30px !important;
+}
+@media only screen and (max-width:576px) {
+    .footer-cotianer img{
+        margin-left: 16px !important;
+
+    }
+    .img1{
+        margin-left: 50px !important;
+    }
+}

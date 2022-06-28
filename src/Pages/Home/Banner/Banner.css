@@ -1,0 +1,31 @@
+.banner-h1{
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 60px;
+    color: hsl(0deg 0% 2%);
+    margin: 0px 0px 18px 0px;
+}
+.banner-main{
+    font-size: 100px;
+    font-weight: bold;
+    color: hsl(0deg 0% 2%);
+    margin: 0px 0px 28px 0px;
+}
+
+@media only screen and (max-width:669px) {
+    .banner-container{
+       display: flex;
+       flex-direction: column-reverse;
+       margin: 0;
+       
+    }
+    .banner-container img{
+     width: 250px !important;
+    }
+    .banner-h1{
+        font-size: 30px;
+    }
+    .banner-main{
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,29 @@
+.blog-cotnianer {
+    padding: 10px 50px;
+}
+
+.quest-contianer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quest-contianer .name-blog {
+    color: rgb(79, 10, 190);
+    margin-right: 10px;
+}
+
+.date-blog {
+    color: #9999;
+    margin-left: 20px;
+}
+
+.quest-contianer p {
+    font-weight: bolder;
+}
+.span-inline{
+
+   font-size: xx-large;
+   text-decoration: underline;
+}

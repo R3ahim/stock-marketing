@@ -1,0 +1,136 @@
+*
+{
+    box-sizing: border-box1;
+}
+
+.container-fluid
+{
+    width: 100%;
+}
+
+.res
+{
+    /* background-image: url(https://cdn2.slidemodel.com/wp-content/uploads/7382-01-duotone-gradients-powerpoint-templates-16x9-2.jpg); */
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color: #e600ac;
+}
+
+.container
+{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.box1
+{
+    width: 370px;
+    height: 500px;
+    margin: 90px 40px;
+    padding: 70px 40px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    margin-left:200px;
+}
+
+.h3
+{
+    color: #e600ac;
+    font-family: open-sans,sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.box1 input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box1 input[type="text"],
+.box1 input[type="email"],
+
+.box1 input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    height: 40px;
+    color: gray;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 10px;
+    box-sizing: border-box1;
+    display: inline-block;
+}
+
+.inputbox1
+{
+    position: relative;
+}
+
+.inputbox1 span
+{
+    position: absolute;
+    color: gray;
+    top:10px;
+    right:0;
+
+}
+
+.box1 button[type="submit"]
+{
+    border:2px solid violet;
+    border-radius:30px;
+    display: inline-block;
+    padding:8px 30px;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-left: 180px;
+}
+.box1 button:hover[type="submit"]{
+    color: #e600ac;
+}
+
+.box1 input[type="checkbox1"]
+{
+    width:20%;
+    display:block;
+        
+}
+
+.box1 label
+{
+    display:block;
+    position:absolute;
+    left:20%;
+}
+
+.box12
+{
+    height:350px;
+    width:600px;
+    background-image:url(https://www.xmple.com/wallpaper/pink-gradient-purple-linear-1920x1080-c2-ff69b4-9400d3-a-90-f-14.svg);
+    /* background-color: rgb(9, 121, 7); */
+    float:right;
+    transform:translate(82.5%,-100%);
+    border-radius:0 15px 15px 0;
+    background-size:cover;
+    overflow: hidden;
+    position: relative;
+    /* position: absolute ; */
+    left: 130px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:668px) {
+    .box12{
+       float: inline-start;
+       width: 300px;
+    }
+}

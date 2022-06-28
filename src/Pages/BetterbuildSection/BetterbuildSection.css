@@ -1,0 +1,36 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px !important;
+    height: 300px !important;
+    margin: 0px !important;
+
+
+}
+.box-contianer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+
+
+
+@media only screen and (max-width:669px) {
+    .box-contianer{
+        flex-direction: column;
+        align-items: baseline;
+       margin-left: 20px !important;
+    }
+    .box{
+        width: 250px !important;
+       
+    }
+    .box img{
+        width: 100px;
+    }
+}

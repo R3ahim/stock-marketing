@@ -1,0 +1,15 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.about h5{
+    text-align: center;
+    margin: 0 100px;
+}
+.about h5 span{
+    color: rebeccapurple;
+    font-size: x-large;
+}

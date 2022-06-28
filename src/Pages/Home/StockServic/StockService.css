@@ -1,0 +1,27 @@
+.service{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.like-button {
+    font-size: 1rem;
+    padding: 5px 10px;
+    color:  #585858;
+}
+.liked {
+    font-weight: bold;
+    color: red;
+  }
+
+ 
+
+@media only screen and (max-width:668px) {
+    .service img{
+        width:100px !important;
+    }
+    .service{
+        width: 300px !important;
+        margin: 0;
+    }
+}
